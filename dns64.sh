@@ -1,4 +1,3 @@
 #!/bin/bash
-rm -rf /etc/resolv.conf
-wget -P /etc/resolv.conf https://cdn.jsdelivr.net/gh/ours1505/autodns64/resolv.conf
+echo "nameserver 2001:67c:2b0::4" > /etc/resolv.conf
 echo "finish"
